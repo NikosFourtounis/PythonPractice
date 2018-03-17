@@ -9,5 +9,14 @@ if __name__ == "__main__":
     a = "Hello"
     b = "World"
     a+b
-    var = input("Whats's your name?")
-    print(a,var)
+    #var = input("Whats's your name?")
+    #print(a,var)
+    print(3+2, 8 ** 2, 19/5, 19//5, 19%5)
+    print(3+2, 8 ** 2, 19/5, 19//5, 19%5, sep='#')
+    abs(-5)
+    int(-7.6)
+    round(3.1415, 2)
+    print(round((5+6)/2))
+    x = 5
+    x += 1
+    x **= 2
