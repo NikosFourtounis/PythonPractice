@@ -28,6 +28,7 @@ if __name__ == "__main__":
     print(x)'''
     
     #Strings
+    '''
     str1 = "Fish & Chips"
     print(str1[7:11] )
     print(str1[11:7] )
@@ -48,4 +49,24 @@ if __name__ == "__main__":
     print("Dougie Jones".upper().count('E'))
     print(int("7"))
     print(eval("2 + (3 * 5)"))
-    print(str(5.5) + '%')
+    print(str(5.5) + '%')'''
+    
+    #input/output
+    '''
+    input("Please insert your age: ")
+    int(input("Please insert your age: "))
+    float(input("Please insert your age: "))
+    eval(input("Please insert your age: "))'''
+    str2 = "This is a " + \
+    "one line string"
+    print(str2)
+    str3 = """This is a
+    multiline string"""
+    print(str3)
+    print("Hello, " + "World", end='!')
+    print("0123456789012345678901234567")
+    print("S/N".ljust(5), "Character".ljust(17), "Rating".rjust(6), sep="")
+    print('1'.center(5), "Dougie Jones".ljust(17), "10".rjust(6), sep="")
+    print('2'.center(5), "Dale Cooper".ljust(17), "9".rjust(6), sep="")
+    print('3'.center(5), "Diane Evans".ljust(17), "9".rjust(6), sep="")
+
