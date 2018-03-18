@@ -71,6 +71,7 @@ if __name__ == "__main__":
     print('3'.center(5), "Diane Evans".ljust(17), "9".rjust(6), sep="")'''
     
     #list
+    '''
     my_list=[123,'H prwth mou lista']
     my_list.append(234)
     print(my_list)
@@ -78,4 +79,15 @@ if __name__ == "__main__":
     print(my_list)
     my_list.append(321)
     del my_list[1]
-    print(my_list)
+    print(my_list)'''
+    
+    #arrays
+    languages=["Python","Perl","PHP","Ruby","C","Java","C++"]
+    print(len(languages))
+    print(languages[1], languages[-1])
+    print(languages[1:4])
+    numbers=range(5)
+    print(numbers)
+    print([item*2 for item in numbers])
+    print (numbers)
+    print([item for item in numbers if item%2==0])
