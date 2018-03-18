@@ -29,7 +29,23 @@ if __name__ == "__main__":
     
     #Strings
     str1 = "Fish & Chips"
-    str1[7:11] 
-    str1[11:7] 
-    print(str1)
-    
+    print(str1[7:11] )
+    print(str1[11:7] )
+    print(str1.find('chip'))
+    print(str1.find('Chip'))
+    print(len(str1))
+    print(str1.upper())
+    print(str1.count('i'))
+    print('icsd'[1], 'icsd'[2], 'icsd'[2:4])
+    print('icsd'[-1], 'icsd'[-2], 'icsd'[-4:-1])
+    print('icsd'[:2])
+    print('icsd'[2:])
+    print('Hello' + ' ' + 'World')
+    print('he'*3)
+    print(('hurrah-'*2)+'hurrah')
+    print("icsd".capitalize())
+    print("icsd ".rstrip())
+    print("Dougie Jones".upper().count('E'))
+    print(int("7"))
+    print(eval("2 + (3 * 5)"))
+    print(str(5.5) + '%')
