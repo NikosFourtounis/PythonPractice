@@ -56,7 +56,7 @@ if __name__ == "__main__":
     input("Please insert your age: ")
     int(input("Please insert your age: "))
     float(input("Please insert your age: "))
-    eval(input("Please insert your age: "))'''
+    eval(input("Please insert your age: "))
     str2 = "This is a " + \
     "one line string"
     print(str2)
@@ -68,5 +68,14 @@ if __name__ == "__main__":
     print("S/N".ljust(5), "Character".ljust(17), "Rating".rjust(6), sep="")
     print('1'.center(5), "Dougie Jones".ljust(17), "10".rjust(6), sep="")
     print('2'.center(5), "Dale Cooper".ljust(17), "9".rjust(6), sep="")
-    print('3'.center(5), "Diane Evans".ljust(17), "9".rjust(6), sep="")
-
+    print('3'.center(5), "Diane Evans".ljust(17), "9".rjust(6), sep="")'''
+    
+    #list
+    my_list=[123,'H prwth mou lista']
+    my_list.append(234)
+    print(my_list)
+    my_list.remove(234)
+    print(my_list)
+    my_list.append(321)
+    del my_list[1]
+    print(my_list)
