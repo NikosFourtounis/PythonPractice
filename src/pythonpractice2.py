@@ -41,6 +41,9 @@ if __name__ == "__main__":
     print(dict(list1))
     '''
     #print(my_function(2))
+
+    #for
+    '''
     theTeam=['George','Alex','Nick','Chris','Nicky']
     for person in theTeam:
         print('%s is in the team' % person)
@@ -48,3 +51,15 @@ if __name__ == "__main__":
     print(list(range(10)))
     for i in range(1,20,3):
         print(i)
+    '''
+    while True:
+        command=input('Enter command:')
+        if len(command) == 0: # no command - try again
+            continue
+        elif command == 'exit': # user exit
+            print('Goodbye')
+            break
+        else:
+            print('You entered command: %s' % command)
+            print('bye')
+
