@@ -1,6 +1,7 @@
 __author__ = "NFourtounis"
 __date__ = "$Mar 17, 2018 7:26:32 PM$"
 
+#function
 def my_function(a):
     if a>0:
         b=3*a+5
@@ -39,8 +40,11 @@ if __name__ == "__main__":
     list1 = [(1,"One"), (2,"Two"), (3,"Three")]
     print(dict(list1))
     '''
-    print(my_function(2))
-
-
-
-
+    #print(my_function(2))
+    theTeam=['George','Alex','Nick','Chris','Nicky']
+    for person in theTeam:
+        print('%s is in the team' % person)
+    range(10)
+    print(list(range(10)))
+    for i in range(1,20,3):
+        print(i)
