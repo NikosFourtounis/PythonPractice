@@ -82,6 +82,7 @@ if __name__ == "__main__":
     print(my_list)'''
     
     #arrays
+    '''
     languages=["Python","Perl","PHP","Ruby","C","Java","C++"]
     print(len(languages))
     print(languages[1], languages[-1])
@@ -91,7 +92,6 @@ if __name__ == "__main__":
     print([item*2 for item in numbers])
     print (numbers)
     print([item for item in numbers if item%2==0])
-
     lab='ATPL'
     3*lab
     lab='MPES '+lab
@@ -101,3 +101,23 @@ if __name__ == "__main__":
     "numbers are %d, %d" %(4,5)
     exec("year=2016")
     print(year)
+    '''
+    #lists
+    '''
+    nums = [1, 5, 6, 1, 3]
+    ['Samos', 5, 'Ikaria']
+    myList=['George','Alex','Nick','Chris','Nicky']
+    len(myList)
+    max(myList)
+    myList.append("Dougie")
+    nums.extend([7, 8])
+    myList.reverse()
+    nums.remove(1)
+    nums[2:4] # Slice
+    print("a,b,c".split(','))
+    line=["This", "is", "a", "line"]
+    print(" ".join(line))
+    '''
+    name='Nick Fourtounis'
+    print(name[0:name.find(' ')])
+    print(name[name.find(' ')+1:len(name)])
