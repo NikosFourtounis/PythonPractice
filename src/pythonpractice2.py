@@ -67,7 +67,7 @@ if __name__ == "__main__":
     '''
     mylist=[]
     sum=0.0
+    mylist = [math.sqrt(x) for x in range(1,100,1)]
     for i in range(1,100,1):
-        mylist.append(math.sqrt(i))
         sum+=mylist[i-1]
     print(sum)
