@@ -1,6 +1,6 @@
 __author__ = "NFourtounis"
 __date__ = "$Mar 17, 2018 7:26:32 PM$"
-
+import math
 #function
 def my_function(a):
     if a>0:
@@ -52,6 +52,8 @@ if __name__ == "__main__":
     for i in range(1,20,3):
         print(i)
     '''
+    #while
+    '''
     while True:
         command=input('Enter command:')
         if len(command) == 0: # no command - try again
@@ -62,4 +64,10 @@ if __name__ == "__main__":
         else:
             print('You entered command: %s' % command)
             print('bye')
-
+    '''
+    mylist=[]
+    sum=0.0
+    for i in range(1,100,1):
+        mylist.append(math.sqrt(i))
+        sum+=mylist[i-1]
+    print(sum)
