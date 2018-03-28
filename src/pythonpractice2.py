@@ -1,6 +1,13 @@
 __author__ = "NFourtounis"
 __date__ = "$Mar 17, 2018 7:26:32 PM$"
 
+def my_function(a):
+    if a>0:
+        b=3*a+5
+    else:
+        b=-3*a+5
+    return b
+
 if __name__ == "__main__":
     '''
     t = ('a', 3, 'test')
@@ -23,12 +30,17 @@ if __name__ == "__main__":
     print(places)
     '''
     #dictionaries
+    '''
     my_dict={1:'one'}
     print(my_dict[1])
     my_dict[2]='two'
     print(my_dict)
-    print(2 in my_dict) # True αν υπάρχει το 2 στα κλειδιά (keys)
+    print(2 in my_dict)
     list1 = [(1,"One"), (2,"Two"), (3,"Three")]
     print(dict(list1))
+    '''
+    print(my_function(2))
+
+
 
 
