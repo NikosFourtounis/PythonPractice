@@ -91,3 +91,13 @@ if __name__ == "__main__":
     print([item*2 for item in numbers])
     print (numbers)
     print([item for item in numbers if item%2==0])
+
+    lab='ATPL'
+    3*lab
+    lab='MPES '+lab
+    print(lab)
+    '-'.join(languages)
+    lab.find('AT')
+    "numbers are %d, %d" %(4,5)
+    exec("year=2016")
+    print(year)
