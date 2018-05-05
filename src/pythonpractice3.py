@@ -31,3 +31,7 @@ class person(object):
 if __name__ == "__main__":
     al = person('Al Pachino',72)
     print(al.age)
+    al.addChild('Takis',45)
+    al.addChild('Sakis',45)
+    al.listChildren
+    
