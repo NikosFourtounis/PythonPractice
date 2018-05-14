@@ -13,9 +13,13 @@ class Pet(object):
         return self.breed
     def getArea(self):
         return self.area
+    def __str__(self):
+        print('bla bla bla')
+
 if __name__ == "__main__":
     a1 = Pet('Doge','Doggoo','Greece')
     print(a1.getName())
     print(a1.getBreed())
     print(a1.getArea())
+    print(a1.__str__())
     
